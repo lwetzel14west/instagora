@@ -12,8 +12,8 @@ public class App {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "Docker + Spring Boot");
-        model.addAttribute("msg", "Welcome to the docker container!");
+        model.addAttribute("title", "Team 5 Backend Service");
+        model.addAttribute("msg", "Welcome to the Future of agora");
         return "index";
     }
 

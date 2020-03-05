@@ -11,7 +11,8 @@ public class Article {
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String json;
+
+	private String json;
 
 	public Article() {
     }
@@ -28,4 +29,11 @@ public class Article {
 		this.json = json;
 	}
 
+	 public Long getId() {
+			return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 }
