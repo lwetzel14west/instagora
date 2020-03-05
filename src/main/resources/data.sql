@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS article;
+ 
+CREATE TABLE article (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  article VARCHAR(5000) NOT NULL,
+);
