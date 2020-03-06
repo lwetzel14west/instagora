@@ -12,7 +12,7 @@ public class App {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "Team 5 Backend Service");
+        model.addAttribute("title", "Instagora Backend Service");
         model.addAttribute("msg", "Welcome to the Future of agora");
         return "index";
     }
