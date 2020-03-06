@@ -31,7 +31,7 @@ public class ArticleController {
 	@GetMapping("/article")
 	public List<Article> getArticles() {
 		List<Article> result = new ArrayList<Article>();
-		repository.findAll().forEach(result::add);;
+		repository.findAll().forEach(result::add);
 		return result;
 	}
 
